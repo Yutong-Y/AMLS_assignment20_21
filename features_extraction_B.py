@@ -100,7 +100,7 @@ def extract_features_labels(test, task):
     if test == 0:
         basedir = './Datasets/cartoon_set'
     elif test == 1:
-        basedir = './dataset_AMLS_20-21_test/cartoon_set_test'
+        basedir = './Datasets/cartoon_set_test'
     
     images_dir = os.path.join(basedir,'img')
     labels_filename = 'labels.csv'
