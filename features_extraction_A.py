@@ -99,7 +99,7 @@ def extract_features_labels(test):
     if test == 0:
         basedir = './Datasets/celeba'
     elif test == 1:
-        basedir = './dataset_AMLS_20-21_test/celeba_test'
+        basedir = './Datasets/celeba_test'
     
     images_dir = os.path.join(basedir,'img')
     labels_filename = 'labels.csv'
